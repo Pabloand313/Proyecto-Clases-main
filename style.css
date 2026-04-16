@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.lora-causa {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
+}
+
+.lora-triciclo {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.quintessential-regular {
+  font-family: "Quintessential", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.caja { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+    width: 600px;
+    background: rgb(104, 145, 221);
+    font-size: 60px;
+   
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(144, 236, 236);
+    gap:20px; 
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    font-size: 45px;
+    justify-content: space-between;
+    height: 100%;
+    background: thistle;
+}
+.logo{
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 100%;
+    font-size: 50px;
+    color: whitesmoke;
+}
+.navlinks {
+    display: flex;
+    font-size: 45px;
+    justify-content: space-between;
+    height: 100%;
+    background: thistle;
+}
+.navlinks a:hover{
+    color: rgb(255, 239, 239);
+    transition: 0.3s;
+
+}
